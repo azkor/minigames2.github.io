@@ -1,0 +1,57 @@
+body {
+    background-color: #87CEFA; /* light blue */
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .player-section {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .choices {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+  }
+  
+  button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  .results-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+   
+  }
+  
+  #results {
+    font-size: 24px;
+    text-align: center;
+
+    
+      
+  }
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+  }
